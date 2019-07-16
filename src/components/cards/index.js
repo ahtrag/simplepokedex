@@ -19,7 +19,7 @@ class Card extends React.Component {
     }
 
     updateSearch(event) {
-        this.setState({ search: event.target.value.substr(0, 20) })
+        this.setState({ search: event.target.value.toLowerCase().substr(0, 20) })
     }
 
     componentDidMount() {
