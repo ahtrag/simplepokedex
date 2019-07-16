@@ -12,7 +12,7 @@ class Card extends React.Component {
             isShowing: false,
             description: '',
             startOffset: 0,
-            limit: 30,
+            limit: 24,
             documentHeight: 0,
             search: ''
         }
